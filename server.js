@@ -36,8 +36,8 @@ let errors = config(body, {
 		}
 	},
 	["hobbies|type:array|maxLength:6|minLength:4|in:coding,reading,sleeping,eating"]: [],
-	["[en,ur]|type:array"]: [{
+	["[en,ur,ko]|type:array"]: [{
 		name: "type:string|enum:abc,abc1,abc2|length:3"
 	}],
 })
-console.log("=========>", errors)
+console.table(errors)
