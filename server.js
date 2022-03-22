@@ -12,8 +12,8 @@ const body = {
 			phone: "123456789",
 		}
 	},
-	hobbies: ["coding", "reading", "sleeping", "eating"],
-	ko: [
+	hobbies: ["coding", "abeja", "burr"],
+	ur: [
 		{
 			name: "abc",
 		},
@@ -35,7 +35,7 @@ let errors = config(body, {
 			phone: "type:string|maxLength:10|minLength:4"
 		}
 	},
-	["hobbies|type:array|maxLength:6|minLength:4|in:coding,reading,sleeping,eating"]: [],
+	["hobbies|type:array|maxLength:6|minLength:2|in:coding,reading,sleeping,eating"]: [],
 	["[en,ur,ko]|type:array"]: [{
 		name: "type:string|enum:abc,abc1,abc2|length:3"
 	}],
