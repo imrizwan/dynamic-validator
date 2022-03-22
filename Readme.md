@@ -1,3 +1,30 @@
+# Foobar
+
+dynamic-validator is an npm library for dealing with validation dynamically.
+
+## Rules
+
+ - type: array, object, boolean, string, number, integer, long, unsignedInt, unsignedShort, unsignedLong, safeInteger, decimal, float, double.
+ - enum
+ - has (object)
+ - range (number)
+ - text (string)
+ - maxLength (string and array)
+ - minLength (string and array)
+ - length (string and array)
+ - in (array)
+ - dynamic (dynamic fields)
+ - required
+
+## Installation
+
+```bash
+npm i --save dynamic-validator
+```
+
+## Usage
+
+```python
 const { config } = require('./lib/validator')
 
 const body = {
@@ -37,7 +64,10 @@ let errors = config(body, {
 	},
 	["hobbies|type:array|maxLength:6|minLength:2|in:coding,reading,sleeping,eating"]: [],
 	["[en,ur,ko]|type:array"]: [{
-		name: "type:string|enum:abc,abc1,abc2|length:3"
+		name: "type:string|text:abc"
 	}],
 })
-console.table(errors)
+```
+
+## Contributing
+Pull requests are welcome.
