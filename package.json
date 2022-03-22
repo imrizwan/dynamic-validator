@@ -1,11 +1,28 @@
 {
-  "name": "schema-validator",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "string-values-to-numbers",
+  "version": "1.2.0",
+  "description": "dynamic-validator is an npm library for dealing with validation dynamically.",
+  "main": "lib/validator.js",
   "scripts": {
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imrizwan/dynamic-validator.git"
+  },
+  "keywords": [
+    "convert",
+    "string",
+    "number",
+    "validator",
+    "dynamic",
+    "validation",
+    "validate"
+  ],
+  "author": "shahkar-khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imrizwan/dynamic-validator/issues"
+  },
+  "homepage": "https://github.com/imrizwan/dynamic-validator#readme"
 }
