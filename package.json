@@ -1,6 +1,6 @@
 {
-  "name": "string-values-to-numbers",
-  "version": "1.2.0",
+  "name": "dynamic-validator",
+  "version": "1.0.0",
   "description": "dynamic-validator is an npm library for dealing with validation dynamically.",
   "main": "lib/validator.js",
   "scripts": {
