@@ -1,4 +1,4 @@
-# Foobar
+# Dynamic Validator
 
 dynamic-validator is an npm library for dealing with validation dynamically.
 
